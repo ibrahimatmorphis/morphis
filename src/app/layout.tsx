@@ -34,6 +34,10 @@ export const metadata: Metadata = {
   title: "Morphis - AI-First Hot-Deploy UI Infrastructure",
   description:
     "Secure, instant AI UI injection without CI/CD redeploys via Vanilla JS SDK",
+  icons: {
+    icon: '/favicon.png',
+    apple: '/favicon.png',
+  },
 };
 
 export default function RootLayout({

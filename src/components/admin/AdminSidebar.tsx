@@ -50,13 +50,7 @@ export function AdminSidebar({ isOpen, onClose }: AdminSidebarProps) {
         {/* Logo + Admin branding */}
         <div className="p-6 border-b border-slate-200">
           <div className="flex items-center gap-2 mb-2">
-            <div className="w-8 h-8 rounded-lg bg-[#7BC53A] flex items-center justify-center">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                <path d="M12 2L2 7V17L12 22L22 17V7L12 2Z" stroke="white" strokeWidth="2" strokeLinejoin="round" />
-                <path d="M2 7L12 12L22 7" stroke="white" strokeWidth="2" strokeLinejoin="round" />
-                <path d="M12 22V12" stroke="white" strokeWidth="2" />
-              </svg>
-            </div>
+            <img src="/mainlogo.png" alt="Morphis" className="w-8 h-8 rounded-lg" />
             <span className="text-lg font-bold text-slate-900 tracking-tight">Morphis</span>
           </div>
           <p className="text-xs font-medium text-slate-500">Admin Panel</p>
