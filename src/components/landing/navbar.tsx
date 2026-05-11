@@ -35,20 +35,7 @@ export function Navbar() {
         <nav className="max-w-7xl mx-auto px-6 lg:px-8 h-16 flex items-center justify-between">
           {/* Logo */}
           <a href="/" className="flex items-center gap-2 group">
-            <div className="relative">
-              <div className="w-8 h-8 rounded-lg bg-[#7BC53A] flex items-center justify-center group-hover:rotate-12 transition-transform duration-500">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M12 2L2 7V17L12 22L22 17V7L12 2Z"
-                    stroke="white"
-                    strokeWidth="2"
-                    strokeLinejoin="round"
-                  />
-                  <path d="M2 7L12 12L22 7" stroke="white" strokeWidth="2" strokeLinejoin="round" />
-                  <path d="M12 22V12" stroke="white" strokeWidth="2" />
-                </svg>
-              </div>
-            </div>
+            <img src="/mainlogo.png" alt="Morphis" className="w-8 h-8 rounded-lg group-hover:rotate-12 transition-transform duration-500" />
             <span className="text-xl font-bold text-slate-900 tracking-tight">Morphis</span>
           </a>
 
