@@ -54,7 +54,7 @@ export function Sidebar({ tenantName, isOpen, onClose }: SidebarProps) {
         {/* Logo + Tenant name */}
         <div className="p-6 border-b border-slate-200">
           <div className="flex items-center gap-2 mb-2">
-            <img src="/mainlogo.png" alt="Morphis" className="w-8 h-8 rounded-lg" />
+            <img src="/favicon.png" alt="Morphis" className="w-8 h-8 rounded-lg" />
             <span className="text-lg font-bold text-slate-900 tracking-tight">Morphis</span>
           </div>
           <p className="text-xs font-medium text-slate-500 truncate">{tenantName}</p>
