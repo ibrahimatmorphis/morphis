@@ -5,7 +5,7 @@
 
 /** Configuration object passed to the MorphisSDK constructor. */
 export interface MorphisConfig {
-  /** Trusted origin for postMessage security validation (e.g., 'https://app.morphis.dev'). */
+  /** Trusted origin for postMessage security validation (e.g., 'https://app.getmorphis.com'). */
   origin: string;
 
   /** API key — must be passed via environment config, never hardcoded. */
@@ -73,7 +73,7 @@ export declare class MorphisConnectionError extends Error {
  * import { MorphisSDK } from 'morphis-sdk';
  *
  * const sdk = new MorphisSDK({
- *   origin: 'https://app.morphis.dev',
+ *   origin: 'https://app.getmorphis.com',
  *   apiKey: process.env.MORPHIS_API_KEY!,
  * });
  *
